@@ -3,6 +3,8 @@
 [Oo]bj/
 [Bb]uild/
 [Bb]uilds/
+
+
 Assets/AssetStoreTools*
 
 # Visual Studio cache directory
@@ -35,3 +37,17 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+
+# Some ways of ignoring files / paths:
+
+# Ignore any file ending with XYZ:
+*.XYZ
+
+# Ignore this file specifically: 
+Assets/Scripts/SomeFile.png
+
+# Tell to ignore a OtherStuff directory on the root level only:
+/OtherStuff/
+
+# Tell to ignore all directories called SomeStuff:
+SomeStuff/
